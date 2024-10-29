@@ -31,7 +31,7 @@ class TwinExtStarterExtension(omni.ext.IExt):
 
                 def on_reset():
                     self._count = 0
-                    label.text = "empty!"
+                    label.text = "yempty!"
 
                 on_reset()
 
